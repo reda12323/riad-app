@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import TopSlider from "../accueil/TopSlider/TopSlider";
+import TopSlider from "../accueil/topSlider/TopSlider";
 import Navbar from "../accueil/slider/navbar/Navbar";
 import "./ImageHero.css";
 import { gsap } from "gsap";

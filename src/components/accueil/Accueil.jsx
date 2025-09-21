@@ -1,5 +1,5 @@
 import './Accueil.css';
-import TopSlider from './TopSlider/TopSlider';
+import TopSlider from './topSlider/TopSlider';
 import Slider from './slider/Slider';
 import MainPage from './MainPage';
 import Footer from '../footer/Footer';

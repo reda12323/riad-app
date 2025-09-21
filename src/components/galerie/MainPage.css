@@ -1,0 +1,103 @@
+.complete-page-main{
+    margin-bottom:3%;
+    padding: 50px 10%;
+}
+
+.gl-big-part{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:3%;
+}
+.button-first-div{
+    width:100%;
+    text-align:end;
+    margin-top:3%;;
+}
+
+.gl-medu-part{
+    background-color: #cac7c7;
+    color: white;
+    padding: 70px 180px;
+    font-size: 16px;
+    margin-bottom:9%;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container div{
+    width:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-bottom:15px;
+}
+.image-container div img{
+    gap: 15px;
+}
+
+#gl-galerie-ph{
+    margin-right:auto;
+    margin-bottom: 1%;
+    font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    
+}
+
+@media screen and (max-width: 1300px) {
+    .gl-medu-part{
+        background-color: #cac7c7;
+        color: white;
+        padding: 60px 100px;
+        font-size: 16px;
+        margin-bottom:9%;
+    }
+    #gl-galerie-ph{
+        margin-right:auto;
+        margin-bottom: 1%;
+        font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .gl-medu-part{
+        background-color: #cac7c7;
+        color: white;
+        padding: 55px 70px;
+        font-size: 16px;
+        margin-bottom:9%;
+    }
+    #gl-galerie-ph{
+        margin-right:auto;
+        margin-bottom: 1%;
+        font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        
+    }
+}
+@media screen and (max-width: 635px) {
+    .gl-medu-part{
+        background-color: #cac7c7;
+        color: white;
+        padding: 50px 35px;
+        font-size: 16px;
+        margin-bottom:9%;
+    }
+    #gl-galerie-ph{
+        margin-right:auto;
+        margin-bottom: 1%;
+        font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        
+    }
+}

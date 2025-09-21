@@ -1,0 +1,326 @@
+.complete-page-main {
+    margin-bottom: 3%;
+    padding: 50px 10%;
+}
+
+.ch-big-part {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3%;
+}
+
+.ch-medu-child-1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5%;
+    padding-bottom: 15px;
+}
+
+.ch-medu-child-2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5%;
+    padding-bottom: 15px;
+}
+
+.ch-medu-child-3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5%;
+}
+
+.ch-small-child-1-1 {
+    width: 80%;
+
+}
+
+.ch-small-child-1-2 {
+    width: 100%;
+}
+
+.ch-exs-picture-1-1 {
+    background-image: url('https://darchadia.com/wp-content/uploads/2022/06/20220618_095350-1024x768.jpg');
+    width: 100%;
+    background-position: 50%;
+    background-size: cover;
+    text-align: center;
+    z-index: 1;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    transition: transform 0.4s ease, opacity 0.4s ease;
+
+}
+
+.ch-exs-picture-1-1:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+.ch-exs-picture-1-2 {
+    background-image: url('https://darchadia.com/wp-content/uploads/2022/06/20220618_101334-1024x768.jpg');
+    width: 100%;
+    background-position: 50%;
+    background-size: cover;
+    z-index: 1;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    transition: transform 0.4s ease, opacity 0.4s ease;
+
+
+}
+
+.ch-exs-picture-1-2:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+.ch-link {
+    text-decoration: none;
+}
+
+.ch-big-part h5 {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: monospace;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.ch-big-part button {
+    background: transparent;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: 1px solid white;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease; 
+}
+
+.ch-big-part button:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: scale(1.1); 
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+    color: #fff;
+}
+
+.ch-small-child-2-1 {
+    width: 100%;
+}
+
+.ch-small-child-2-2 {
+    width: 80%;
+}
+
+
+.ch-exs-picture-2-1 {
+    background-image: url('https://darchadia.com/wp-content/uploads/2022/06/20220618_103003-1024x768.jpg');
+    width: 100%;
+    background-position: 50%;
+    background-size: cover;
+    text-align: center;
+    z-index: 1;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    transition: transform 0.4s ease, opacity 0.4s ease;
+
+}
+
+.ch-exs-picture-2-1:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+.ch-exs-picture-2-2 {
+    background-image: url('https://darchadia.com/wp-content/uploads/2022/06/20220618_102245-768x1024.jpg');
+    width: 100%;
+    background-position: 50%;
+    background-size: cover;
+    z-index: 1;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    transition: transform 0.4s ease, opacity 0.4s ease;
+
+
+}
+
+.ch-exs-picture-2-2:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+.ch-small-child-3-1 {
+    width: 80%;
+
+}
+
+.ch-small-child-3-2 {
+    width: 100%;
+}
+
+.ch-exs-picture-3-1 {
+    background-image: url('https://darchadia.com/wp-content/uploads/2022/06/20220618_104607-1024x768.jpg');
+    width: 100%;
+    background-position: 50%;
+    background-size: cover;
+    text-align: center;
+    z-index: 1;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    transition: transform 0.4s ease, opacity 0.4s ease;
+
+}
+
+.ch-exs-picture-3-1:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+.ch-exs-picture-3-2 {
+    background-image: url('https://darchadia.com/wp-content/uploads/2022/06/20220618_105758-1024x768.jpg');
+    width: 100%;
+    background-position: 50%;
+    background-size: cover;
+    z-index: 1;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    transition: transform 0.4s ease, opacity 0.4s ease;
+
+
+}
+
+.ch-exs-picture-3-2:hover {
+    transform: scale(1.05);
+    /* smooth zoom-in */
+    opacity: 0.9;
+    /* subtle fade */
+}
+
+
+.ch-button-first-div {
+    width: 100%;
+    text-align: end;
+    margin: auto;
+}
+
+@media screen and (max-width: 980px) {
+    .ch-medu-child-1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5%;
+        padding-bottom: 0px;
+    }
+
+    .ch-medu-child-2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5%;
+        padding-bottom: 0px;
+    }
+
+    .ch-medu-child-3 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5%;
+    }
+
+    .ch-small-child-1-1 {
+        width: 100%;
+
+    }
+
+    .ch-small-child-1-2 {
+        width: 100%;
+    }
+
+    .ch-small-child-2-1 {
+        width: 100%;
+
+    }
+
+    .ch-small-child-2-2 {
+        width: 100%;
+    }
+
+    .ch-small-child-3-1 {
+        width: 100%;
+
+    }
+
+    .ch-small-child-3-2 {
+        width: 100%;
+    }
+
+    .ch-exs-picture-1-1 {
+        margin-bottom: 15px;
+    }
+
+    .ch-exs-picture-1-2 {
+        margin-bottom: 15px;
+    }
+
+    .ch-exs-picture-2-1 {
+        margin-bottom: 15px;
+    }
+
+    .ch-exs-picture-2-2 {
+        margin-bottom: 15px;
+    }
+
+    .ch-exs-picture-3-1 {
+        margin-bottom: 15px;
+    }
+
+    .ch-exs-picture-3-2 {
+        margin-bottom: 15px;
+    }
+}

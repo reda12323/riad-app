@@ -1,0 +1,47 @@
+.complete-page-main{
+    margin:auto;
+    padding: 50px 10%;
+}
+
+.room-details {
+    margin-bottom: 3%;
+}
+
+.room-details h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-family: math;
+    color:#FD9055;
+}
+
+.date-price {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.date {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    font-size: 17.5px;
+    font-family: 'Raleway';
+    color: #474646;
+}
+
+.date::after {
+    content: "";
+    height: 1px;
+    background-color: #d9d9d9;
+    flex-grow: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.price {
+    white-space: nowrap;
+    font-size: 17.5px;
+    font-family: 'Raleway';
+    color: #474646;
+}
